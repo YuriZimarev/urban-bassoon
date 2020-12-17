@@ -15,8 +15,8 @@ minetest.register_craft({
 	type = "shaped",
 	output = "safebox:safebox 1",
 	recipe = {
-		{"default: Iron Ingot", "default: Iron Ingot", "default: Iron Ingot"},
-		{"default: Iron Ingot", "","default: Stick"},
-		{"default: Iron Ingot", "default: Iron Ingot", "default: Iron Ingot"}
+		{"default:steel_ingot", "default:steel_ingot", "default:steel_ingot"},
+		{"default:steel_ingot", "","default:stick"},
+		{"default:steel_ingot", "default:steel_ingot", "default:steel_ingot"}
 	}
 })
