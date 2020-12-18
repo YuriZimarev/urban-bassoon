@@ -9,7 +9,9 @@ minetest.register_node("safebox:safebox", {
 		"safebox_safebox_back.png",
 		"safebox_safebox_front.png"
 	},
-	is_ground_content = false
+	is_ground_content = false,
+	paramtype2="facedir",
+	groups={cracky=1, level=1}
 })
 minetest.register_craft({
 	type = "shaped",
