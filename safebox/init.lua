@@ -40,6 +40,7 @@ minetest.register_craft({
 		{"default:steel_ingot", "default:steel_ingot", "default:steel_ingot"}
 	}
 })
+
 minetest.register_on_joinplayer(function(player)
 	local inv = player:get_inventory()
 	inv:set_size("safebox:safebox", 8*4)
