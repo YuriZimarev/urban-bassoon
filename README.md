@@ -1,1 +1,1 @@
-Collection of mods 
+Collection of mods for Minetest
